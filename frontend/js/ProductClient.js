@@ -17,7 +17,7 @@ function createProduct(product) {
     }
   ).then((response) => {
     if (response.ok) {
-      return response.json();
+      console.log(response);
     } else {
       alert("Yra bedu");
     }
